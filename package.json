@@ -1,7 +1,7 @@
 {
   "name": "backend-webscraper",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "Server.js",
   "scripts": {
     "build": "esbuild Server.js --bundle --platform=node --format=cjs --external:bcrypt --outfile=dist/Server.cjs",
     "start": "node dist/Server.cjs",
@@ -20,6 +20,7 @@
     "bcrypt": "^6.0.0",
     "cors": "^2.8.5",
     "dotenv": "^17.0.1",
+    "esbuild": "^0.27.1",
     "express": "^5.1.0",
     "express-rate-limit": "^8.1.0",
     "express-validator": "^7.2.1",
